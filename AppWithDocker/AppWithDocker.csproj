@@ -4,6 +4,7 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <UserSecretsId>f053daf9-c959-42f5-95bb-d35afae5a007</UserSecretsId>
+    <StartupObject>AppWithDocker.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>

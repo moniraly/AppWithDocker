@@ -21,7 +21,7 @@ namespace AppWithDocker.Controllers
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return "value";
+            return id.ToString() +" + "+ id.ToString() +" = "+ (id+id).ToString();
         }
 
         // POST api/values

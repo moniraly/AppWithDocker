@@ -1,0 +1,13 @@
+﻿version : '3.1'
+
+services:
+  api:
+    image: appwithdocker/api 
+    container_name: myapp.container
+    build:
+      context: .
+    ports:
+      - 59830:80
+      - 44380:443
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
